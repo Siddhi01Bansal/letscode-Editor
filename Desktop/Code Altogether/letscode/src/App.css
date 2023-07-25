@@ -1,0 +1,129 @@
+.HomePageWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+.FormWrapper{
+  background: #143D00FF;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+}
+footer a{
+  color:chartreuse;
+}
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.HomePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joinbtn,
+.leaveBtn{
+  background: #46DB00FF;
+  width: 100px;
+  margin-left: auto;
+}
+.joinbtn:hover,
+.leaveBtn:hover{
+  background: #38B000FF;
+}
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.createNewBtn{
+  color:chartreuse;
+  text-decoration: none;
+  border-bottom: 1px solid chartreuse;
+  transition: all 0.3s ease-in-out;
+}
+.createNewBtn:hover, footer a:hover{
+  color: #38B000FF;
+  border-color: #38B000FF;
+}
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside{
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.asideInner{
+  flex:1;
+}
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName{
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage{
+  height: 60px; 
+}
+.leaveBtn{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CodeMirror{
+  min-height: calc(100vh-20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
